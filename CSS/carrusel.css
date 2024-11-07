@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #f5f5f5;
+}
+
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+/*Responsive */
+
+/* En pantallas medianas (tablets) */
+@media (max-width: 991px) {
+    .slider-box {
+        width: 90%; /* Usamos el 90% del ancho de la pantalla */
+    }
+}
+
+/* En pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .slider-box {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 30px auto;
+    }
+    .slider-box ul {
+        width: 400%; /* Ajuste si se requiere para un número de imágenes distinto */
+        animation: slide 12s infinite alternate ease-in-out;
+    }
+}
+
+/* En dispositivos muy pequeños (extra pequeños) */
+@media (max-width: 576px) {
+    .slider-box {
+        width: 100%; /* Máximo ancho */
+        margin: 20px auto;
+    }
+    .slider-box ul {
+        width: 400%;
+        animation: slide 10s infinite alternate ease-in-out; /* Velocidad ajustada */
+    }
+}
