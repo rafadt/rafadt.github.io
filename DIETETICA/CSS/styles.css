@@ -226,7 +226,7 @@ footer {
 @media (max-width: 768px) {
 
     nav ul {
-        display: none; /* Ocultamos el menú inicialmente */
+        /*display: none;Ocultamos el menú inicialmente */
         flex-direction: column;
         width: 100%;
     }
