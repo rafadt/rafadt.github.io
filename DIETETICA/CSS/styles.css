@@ -336,3 +336,386 @@ footer {
         padding: 8px;
     }
 }
+#mision hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Color verde saludable */
+    margin: 20px 0;
+    opacity: 0.7;
+}
+
+#mision h2, #mision h3 {
+    color: #8BC34A; /* Verde saludable */
+    margin-bottom: 15px;
+}
+
+#mision p, #mision ul, #mision ol {
+    color: #555;
+    line-height: 1.8;
+}
+
+#mision ul, #mision ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#mision li {
+    margin-bottom: 10px;
+}
+#valores hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para continuidad del diseño */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+#valores h2, #valores h3 {
+    color: #8BC34A; /* Verde para los títulos */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#valores p {
+    color: #555; /* Color gris para texto */
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+#conocenos h2 {
+    color: #8BC34A; /* Verde claro para los títulos */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#conocenos h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#conocenos p {
+    color: #555; /* Color gris para el texto */
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#conocenos hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+#conocenos {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+#conocenos p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#conocenos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#conocenos ul li {
+    margin-bottom: 10px;
+}
+
+#conocenos ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+/* Estilos generales para la sección de preguntas a padres */
+#preguntas {
+    padding: 40px;
+    background-color: #ffffff; /* Fondo blanco para mantener la claridad */
+    color: #333; /* Texto oscuro para buen contraste */
+    font-family: 'Arial', sans-serif; /* Tipografía legible */
+    border-radius: 10px; /* Bordes redondeados para un toque moderno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    margin: 40px auto; /* Centramos la sección */
+    max-width: 1200px; /* Max width para no extenderse demasiado */
+}
+
+/* Título principal */
+#preguntas h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center; /* Centrado para hacerlo más prominente */
+    text-transform: uppercase; /* Títulos en mayúsculas para un toque formal */
+}
+
+/* Subtítulos */
+#preguntas h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Párrafos */
+#preguntas p {
+    color: #555; /* Gris oscuro para los párrafos */
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify; /* Alineación justificada para un texto más limpio */
+}
+
+/* Línea separadora */
+#preguntas hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Línea verde claro */
+    margin: 30px 0; /* Más espacio antes y después de la línea */
+    opacity: 0.6; /* Línea más suave */
+}
+
+/* Listas sin puntos con estilo personalizado */
+#preguntas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#preguntas ul li {
+    margin-bottom: 15px; /* Más espacio entre los ítems de la lista */
+    font-size: 18px;
+    display: flex;
+    align-items: center; /* Alineamos los puntos con el texto */
+}
+
+#preguntas ul li::before {
+    content: "•"; /* Utilizamos el símbolo de punto para listas */
+    color: #8BC34A; /* Puntos verdes */
+    font-size: 30px; /* Tamaño más grande para los puntos */
+    margin-right: 15px; /* Espacio entre el punto y el texto */
+}
+
+/* Estilo para los enlaces */
+#preguntas a {
+    color: #8BC34A; /* Verde claro para los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Transición suave al pasar el ratón */
+}
+
+#preguntas a:hover {
+    color: #6a9e3a; /* Verde más oscuro para el hover */
+    text-decoration: underline;
+}
+
+/* Estilo para los botones (si los hubiera) */
+#preguntas button {
+    background-color: #8BC34A; /* Botones en verde */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#preguntas button:hover {
+    background-color: #6a9e3a; /* Botones más oscuros al pasar el ratón */
+}
+#asesorias {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 40px;
+}
+
+#asesorias h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#asesorias p {
+    color: #555; /* Color gris para el texto */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.asesoria {
+    margin-bottom: 40px;
+}
+
+.asesoria h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.asesoria p {
+    color: #555; /* Gris para el texto */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#asesorias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#asesorias ul li {
+    margin-bottom: 10px;
+}
+
+#asesorias ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#asesorias hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+#talleres {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 40px;
+}
+
+#talleres h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#talleres p {
+    color: #555; /* Color gris para el texto */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.taller {
+    margin-bottom: 40px;
+}
+
+.taller h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.taller p {
+    color: #555; /* Gris para el texto */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#talleres ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#talleres ul li {
+    margin-bottom: 10px;
+}
+
+#talleres ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#talleres hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+#charlas {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 40px;
+}
+
+#charlas h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#charlas p {
+    color: #555; /* Color gris para el texto */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.charla {
+    margin-bottom: 40px;
+}
+
+.charla h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.charla p {
+    color: #555; /* Gris para el texto */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#charlas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#charlas ul li {
+    margin-bottom: 10px;
+}
+
+#charlas ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#charlas hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+
