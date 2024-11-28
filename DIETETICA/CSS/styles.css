@@ -146,8 +146,8 @@ footer {
 
 /* Estilos para el formulario de contacto */
 #form-contacto {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 500px; /* Mantiene un ancho máximo */
+    margin: 0; /* Elimina el centrado horizontal */
     background-color: #f7f7f7;
     padding: 20px;
     border-radius: 10px;
@@ -201,6 +201,41 @@ footer {
 
 #form-contacto button[type="submit"]:hover {
     background-color: #7CB342;
+}
+
+/* styles.css */
+
+/* Estilo para los div dentro del main */
+.dia {
+    background-color: #f8f9fa; /* Fondo claro */
+    border: 1px solid #ddd; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px auto; /* Separación entre los divs y centrado */
+    max-width: 500px; /* Ancho máximo */
+    text-align: center; /* Centramos el contenido */
+}
+
+/* Estilo para las imágenes dentro de los divs */
+.dia img {
+    border-radius: 8px; /* Bordes redondeados de la imagen */
+    width: 100%; /* Imagen ajustada al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+}
+
+/* Estilo para el texto de fecha */
+.dia p:first-of-type {
+    font-weight: bold; /* Resaltamos la fecha */
+    color: #555; /* Color gris */
+    margin-bottom: 5px; /* Espaciado debajo de la fecha */
+}
+
+/* Estilo para el texto de descripción */
+.dia p:last-of-type {
+    color: #333; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente estándar */
 }
 
 /* Estilos responsivos para pantallas pequeñas 
@@ -717,5 +752,3 @@ footer {
     margin: 20px 0;
     opacity: 0.8;
 }
-
-
