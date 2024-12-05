@@ -700,3 +700,16 @@ footer {
     margin: 20px 0;
     opacity: 0.8;
 }
+
+
+/*Imagen foof matters*/
+
+.imagen_food{
+    width: auto;
+    height: 700px;
+}
+.carrusel{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
