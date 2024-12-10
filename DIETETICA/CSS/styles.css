@@ -143,6 +143,22 @@ footer {
     position: relative;
 }
 
+/*Imagen foof matters*/
+.imagen_food {
+    width: auto;
+    height: 700px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.carrusel {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* Responsive para móviles (max-width: 768px) */
 @media (max-width: 768px) {
 
@@ -181,7 +197,7 @@ footer {
     }
     /* Ajuste de padding en el contenedor principal */
     main {
-        padding: 15px;
+        margin-top: 90px;
     }
     /* Sección de contenido */
     main h2 {
@@ -191,9 +207,6 @@ footer {
     footer {
         padding: 15px;
         font-size: 14px;
-    }
-    main {
-        padding: 20px 10px;
     }
 
     /* Ajuste de ancho del iframe de Google Maps */
@@ -218,6 +231,11 @@ footer {
     #form-contacto button[type="submit"] {
         font-size: 14px;
         padding: 10px;
+    }
+    .imagen_food {
+        height: auto;
+        max-height: 300px;
+        width: 100%;
     }
 }
 
@@ -255,29 +273,5 @@ footer {
     #form-contacto button {
         font-size: 12px;
         padding: 8px;
-    }
-}
-
-/*Imagen foof matters*/
-.imagen_food {
-    width: auto;
-    height: 700px;
-    max-width: 100%;
-    max-height: 100%;
-}
-.carrusel {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-@media (max-width: 768px) {
-    .imagen_food {
-        height: auto;
-        max-height: 300px;
-        width: 100%;
     }
 }
