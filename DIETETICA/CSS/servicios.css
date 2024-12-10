@@ -1,0 +1,188 @@
+#asesorias {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 40px;
+}
+
+#asesorias h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#asesorias p {
+    color: #555; /* Color gris para el texto */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.asesoria {
+    margin-bottom: 40px;
+}
+
+.asesoria h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.asesoria p {
+    color: #555; /* Gris para el texto */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#asesorias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#asesorias ul li {
+    margin-bottom: 10px;
+}
+
+#asesorias ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#asesorias hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+#talleres {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 40px;
+}
+
+#talleres h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#talleres p {
+    color: #555; /* Color gris para el texto */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.taller {
+    margin-bottom: 40px;
+}
+
+.taller h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.taller p {
+    color: #555; /* Gris para el texto */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#talleres ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#talleres ul li {
+    margin-bottom: 10px;
+}
+
+#talleres ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#talleres hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+#charlas {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+    margin-top: 40px;
+}
+
+#charlas h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#charlas p {
+    color: #555; /* Color gris para el texto */
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.charla {
+    margin-bottom: 40px;
+}
+
+.charla h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.charla p {
+    color: #555; /* Gris para el texto */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#charlas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#charlas ul li {
+    margin-bottom: 10px;
+}
+
+#charlas ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#charlas hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}

@@ -1,0 +1,100 @@
+
+#conocenos h2 {
+    color: #8BC34A; /* Verde claro para los títulos */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#conocenos h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#conocenos p {
+    color: #555; /* Color gris para el texto */
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+#conocenos hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para las líneas separadoras */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+#conocenos {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+#conocenos p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#conocenos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#conocenos ul li {
+    margin-bottom: 10px;
+}
+
+#conocenos ul li::before {
+    content: "•";
+    color: #8BC34A; /* Verde para los íconos de lista */
+    margin-right: 10px;
+}
+
+#mision hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Color verde saludable */
+    margin: 20px 0;
+    opacity: 0.7;
+}
+
+#mision h2, #mision h3 {
+    color: #8BC34A; /* Verde saludable */
+    margin-bottom: 15px;
+}
+
+#mision p, #mision ul, #mision ol {
+    color: #555;
+    line-height: 1.8;
+}
+
+#mision ul, #mision ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#mision li {
+    margin-bottom: 10px;
+}
+
+#valores hr {
+    border: 0;
+    height: 2px;
+    background: #8BC34A; /* Verde claro para continuidad del diseño */
+    margin: 20px 0;
+    opacity: 0.8;
+}
+
+#valores h2, #valores h3 {
+    color: #8BC34A; /* Verde para los títulos */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#valores p {
+    color: #555; /* Color gris para texto */
+    line-height: 1.8;
+    margin-bottom: 15px;
+}

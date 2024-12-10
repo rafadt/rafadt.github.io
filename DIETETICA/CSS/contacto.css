@@ -1,0 +1,58 @@
+/* Estilos para el formulario de contacto */
+#form-contacto {
+    max-width: 500px; /* Mantiene un ancho máximo */
+    margin: 0; /* Elimina el centrado horizontal */
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#form-contacto label {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+#form-contacto input[type="text"],
+#form-contacto input[type="email"],
+#form-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    transition: border-color 0.3s ease;
+}
+
+#form-contacto input[type="text"]:focus,
+#form-contacto input[type="email"]:focus,
+#form-contacto textarea:focus {
+    border-color: #8BC34A; /* Verde cuando se enfoca */
+    outline: none;
+}
+
+#form-contacto textarea {
+    resize: vertical; /* Permitir redimensionar solo verticalmente */
+}
+
+#form-contacto button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #8BC34A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#form-contacto button[type="submit"]:hover {
+    background-color: #7CB342;
+}

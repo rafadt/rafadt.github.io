@@ -1,0 +1,39 @@
+/* Estilos generales para la sección de preguntas a padres */
+.preguntas {
+    padding: 40px;
+    background-color: #eff1f3; /* Fondo blanco para mantener la claridad */
+    color: #333; /* Texto oscuro para buen contraste */
+    font-family: 'Arial', sans-serif; /* Tipografía legible */
+    border-radius: 10px; /* Bordes redondeados para un toque moderno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    margin: 40px auto; /* Centramos la sección */
+    max-width: 1200px; /* Max width para no extenderse demasiado */
+}
+
+/* Título principal */
+h2 {
+    color: #8BC34A; /* Verde claro para el título */
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center; /* Centrado para hacerlo más prominente */
+    text-transform: uppercase; /* Títulos en mayúsculas para un toque formal */
+}
+
+/* Subtítulos */
+.preguntas h3 {
+    color: #8BC34A; /* Verde claro para los subtítulos */
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Párrafos */
+.preguntas p {
+    color: #555; /* Gris oscuro para los párrafos */
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify; /* Alineación justificada para un texto más limpio */
+}
