@@ -1,6 +1,6 @@
 /* Estilos para el formulario de contacto */
 #form-contacto {
-    max-width: 500px; /* Mantiene un ancho máximo */
+    max-width: 100%; /* Mantiene un ancho máximo */
     margin: 0; /* Elimina el centrado horizontal */
     background-color: #f7f7f7;
     padding: 20px;
@@ -56,6 +56,7 @@
 #form-contacto button[type="submit"]:hover {
     background-color: #7CB342;
 }
+
 body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -64,3 +65,4 @@ body {
 body.loaded {
     opacity: 1;
 }
+
