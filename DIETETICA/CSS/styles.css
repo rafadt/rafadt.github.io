@@ -33,6 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed; /* Hace que el header sea fijo */
     top: 0;
     left: 0;
     width: 100%; /* Asegura que el header ocupe todo el ancho de la página */
