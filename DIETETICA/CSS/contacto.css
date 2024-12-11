@@ -57,6 +57,17 @@
     background-color: #7CB342;
 }
 
+section {
+    padding: 40px;
+    background-color: #eff1f3; /* Fondo blanco para mantener la claridad */
+    color: #333; /* Texto oscuro para buen contraste */
+    font-family: 'Arial', sans-serif; /* Tipografía legible */
+    border-radius: 10px; /* Bordes redondeados para un toque moderno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    margin: 40px auto; /* Centramos la sección */
+    max-width: 100%; /* Max width para no extenderse demasiado */
+}
+
 body {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
