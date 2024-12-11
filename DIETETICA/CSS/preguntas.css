@@ -37,3 +37,14 @@ h2 {
     font-size: 18px;
     text-align: justify; /* Alineación justificada para un texto más limpio */
 }
+
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+

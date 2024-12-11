@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../CSS/styles.css"> 
     <link rel="stylesheet" href="../../CSS/conocenos.css">
 </head>
-<body>
+<body class="fade-in">
 
     <header>
         <a href="../index.html"><img src="../../IMAGENES/food_matters.png" alt="" width="100px"></a> <p class="food"><strong>FOOD MATTERS</strong></p>
@@ -102,5 +102,12 @@
         <p>&copy; 2024 Food Matters. Todos los derechos reservados.</p>
     </footer>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.body.classList.add("loaded");
+        });
+    </script>
+    
+    
 </body>
 </html>
